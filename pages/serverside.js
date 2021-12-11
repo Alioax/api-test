@@ -2,7 +2,7 @@ function Page({ data }) {
     return (
         <>
             <h1>{data.fact}</h1>
-            <p>{data.length}</p>
+            <h2>{data.length}</h2>
         </>
     );
 }
